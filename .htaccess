@@ -1,4 +1,6 @@
 AuthType Basic
 AuthName "index.html"
 AuthUserFile woe/index.html/.htpasswd
-require valid-user
+<Files "index.html">
+   require valid-user
+ </Files>
