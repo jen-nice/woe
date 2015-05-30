@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "index"
+AuthUserFile index.html/.htpasswd
+require valid-user
