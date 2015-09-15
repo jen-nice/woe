@@ -1,7 +1,7 @@
 
 var main = function(){
  //To drag the pictures
- $(".wallpic").draggable();
+ $('.wallpic').draggable();
  
 };
 
