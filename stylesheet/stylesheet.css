@@ -170,3 +170,6 @@ Small Device Styles
     border: 10px solid red;
 }
 
+.wallspace {
+    padding-bottom:50px;	
+}
