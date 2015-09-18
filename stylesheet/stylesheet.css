@@ -167,5 +167,6 @@ Small Device Styles
 
 .wallpic {
     background-color:blue;
+    border: 10px solid red;
 }
 
