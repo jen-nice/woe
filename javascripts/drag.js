@@ -1,7 +1,7 @@
 
 var main = function(){
  //To drag the pictures
- $(".wallsaying").draggable();
+ $(".wallsaying").fadeOut(1000);
 };
 
 $(document).ready(main);
