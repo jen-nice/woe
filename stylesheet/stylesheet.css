@@ -171,5 +171,11 @@ Small Device Styles
 }
 
 .wallspace {
-    padding-bottom:50px;	
+    padding-bottom:200px;	
+}
+
+.wallsaying {
+    border: 10px solid red;
+    padding: 10px;
+    border-radius:5px;
 }
