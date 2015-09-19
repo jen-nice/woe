@@ -5,6 +5,19 @@
  
         <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
+	  
+	  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+	  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	 
+	  <style>
+	  #draggable { width: 150px; height: 150px; padding: 0.5em; }
+	  </style>
+	  <script>
+	  $(function() {
+	    $( "#draggable" ).draggable();
+	  });
+	  </script>
+  
         <style type="text/css">
 	@import url('stylesheet/stylesheet.css')
 	</style>
@@ -54,7 +67,7 @@
         <div class="section"> 
                 <div class="container"> 
                         <div class="row"> 
-                         <div class="col-md-3 dragme"> <p>Love yourself!</p> </div>
+                         <div id="draggable" class="col-md-3 dragme"> <p>Love yourself!</p> </div>
                          <div class="col-md-3"> <img src="images/makeyourselfhappy.png" class="wallpic img-responsive"> </div>
                          <div class="col-md-3"> <img src="images/healthyboundaries.png" class="wallpic img-responsive"> </div>
                          <div class="col-md-3 wallsaying"> <p> Don't Beat Yourself Up!</p> </div>
@@ -62,10 +75,10 @@
                          
 <!--BOOTSTRAP CODE LINKS-->
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed 
     <script src="js/bootstrap.min.js"></script>
-    <script src="javascripts/drag.js"></script> 
+    <script src="javascripts/drag.js"></script> -->
         
 
 </body></html>
