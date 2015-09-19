@@ -185,3 +185,9 @@ Small Device Styles
     padding: 10px;
     border-radius:5px;	
 }
+
+#draggable { 
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em; 
+}
