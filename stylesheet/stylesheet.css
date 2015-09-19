@@ -179,3 +179,9 @@ Small Device Styles
     padding: 10px;
     border-radius:5px;
 }
+
+.dragme {
+    border: 10px solid red;
+    padding: 10px;
+    border-radius:5px;	
+}
